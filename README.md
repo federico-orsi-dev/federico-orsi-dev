@@ -70,7 +70,7 @@ I'm always up for discussing software architecture, AI integration, Python best 
 
 - **Email:** [federico080802@gmail.com](mailto:federico080802@gmail.com)
 - **GitHub:** [@federico-orsi-dev](https://github.com/federico-orsi-dev)
-- **LinkedIn:** [Federico Orsi](https://www.linkedin.com/in/federico-orsi/) (portfolio projects)
+- **LinkedIn:** [Federico Orsi](https://www.linkedin.com/in/federico-orsi-/) (portfolio projects)
 
 ---
 
