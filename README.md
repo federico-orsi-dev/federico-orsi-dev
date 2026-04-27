@@ -1,53 +1,81 @@
-# Hi, I'm Federico (aka @fede080802)
+# Hey, I'm Federico Orsi (@federico-orsi-dev)
 
-Welcome to my GitHub profile! I'm a full-stack .NET Developer with a passion for building scalable, efficient, and modern software solutions. My experience spans backend development, frontend engineering, API design, and AI exploration, and I'm continuously expanding my skill set to include advanced C#, Python, and cutting-edge web technologies.
+Welcome to my GitHub! I'm a **Python-first full-stack developer** building production-grade AI applications with a focus on **scalable backend systems, async-first architecture, and AI integration**. I'm passionate about clean code, type safety, and turning complex problems into elegant solutions.
 
-## About Me
+## What I Do
 
-I specialize in creating robust applications and dynamic web experiences. Whether it's developing high-performance backend systems using .NET and C# or crafting interactive user interfaces with React, I thrive on solving complex problems with elegant code. My curiosity for AI development drives me to integrate innovative machine learning techniques into my projects, ensuring that I stay at the forefront of technology.
+I specialize in:
+- **Backend systems:** Python async (FastAPI), SQLAlchemy, database design, microservices
+- **AI/RAG applications:** LangChain, vector databases (ChromaDB), semantic search, streaming
+- **Full-stack development:** React + TypeScript frontends paired with robust Python backends
+- **Cloud-ready architecture:** Docker, CI/CD pipelines, production hardening, observability
 
-## Skills & Technologies
+## Current Focus
 
-- **Programming Languages:**  
-  - **C#:** Building secure, efficient, and maintainable applications with .NET.  
-  - **Python:** Exploring AI development, data analysis, and automation with libraries like NumPy, pandas, and scikit-learn.  
-  - **JavaScript/TypeScript:** Crafting dynamic and responsive front-end applications.  
-  - Other languages: Java, PHP, HTML, CSS
+**SourceLogic** — A multi-tenant RAG codebase explorer built with:
+- **Backend:** FastAPI (async), SQLAlchemy 2.0, ChromaDB, LangChain, OpenAI integration
+- **Frontend:** React 18, TypeScript, Vite, Tailwind CSS
+- **Quality:** MyPy strict, Ruff formatting, 77% test coverage (138 tests), Bandit security scanning
+- **Auth:** Dev mode, API key (SHA-256), JWT Bearer tokens — fully tested and production-hardened
+- **DevOps:** Docker Compose, Alembic migrations, GitHub Actions CI/CD
 
-- **Frameworks & Libraries:**  
-  - **.NET / ASP.NET Core:** Developing backend services and web applications.  
-  - **React:** Building modern, responsive, and interactive UIs.  
-  - **Python Libraries:**  
-    - **NumPy & pandas** for data manipulation and analysis  
-    - **scikit-learn** for machine learning  
-    - Exploring **TensorFlow** or **PyTorch** for deep learning  
-  - Familiar with various other web technologies and tools.
+This project demonstrates **production maturity** across authentication, multi-tenancy, testing, security, and deployment readiness.
 
-- **APIs & Backend:**  
-  - Designing and consuming RESTful APIs  
-  - Integrating microservices and third-party services
+## Tech Stack
 
-- **Database Systems:**  
-  - Proficient with SQL databases such as MySQL and SQL Server  
-  - Exposure to NoSQL technologies
+**Languages:**
+- 🐍 **Python** (primary) — async/await, type hints, clean architecture
+- 🟦 **TypeScript** (secondary) — React, strict mode, semantic correctness
+- Exposure to Java, C#, PHP
 
-- **DevOps & Version Control:**  
-  - Git & GitHub for collaboration and version control  
-  - Interested in CI/CD, containerization, and cloud-based deployments
+**Frameworks & Libraries:**
+- **Backend:** FastAPI, SQLAlchemy 2.0 async, Pydantic, LangChain
+- **Frontend:** React 18, Vite, Tailwind CSS, Framer Motion
+- **AI/Data:** LangChain, ChromaDB, sentence-transformers, OpenAI API
+- **Testing:** pytest, pytest-asyncio, Vitest, React Testing Library
 
-## What I'm Learning
+**DevOps & Tools:**
+- **Database:** SQLite (dev), PostgreSQL-ready, Alembic migrations
+- **Infrastructure:** Docker, Docker Compose, GitHub Actions
+- **Code Quality:** MyPy strict, Ruff, Bandit, pytest-cov (≥70%)
+- **Version Control:** Git, GitHub
 
-- **Advanced C# and .NET Practices:** Deepening my expertise in modern C# features and best practices for scalable application development.
-- **Python for AI & Machine Learning:** Enhancing my knowledge in data analysis, machine learning libraries, and AI-driven solutions.
-- **Modern Front-end Techniques:** Improving my skills with React and exploring emerging front-end frameworks.
-- **API & Microservices Architecture:** Building more robust and scalable backend services.
-- **Full-Stack Integration:** Combining backend and frontend technologies for seamless user experiences.
+**Security:**
+- Multi-tenant isolation (ORM-level filtering)
+- API key authentication (timing-safe comparison)
+- JWT Bearer token support
+- Rate limiting per tenant
+- Input validation (Pydantic)
+
+## Skills I'm Actively Developing
+
+- Advanced async Python patterns and optimization
+- Distributed job queues and worker orchestration
+- Observability (metrics, tracing, APM)
+- Production Postgres deployment and scaling
+- RAG quality optimization for large codebases
+- MLOps and model serving
+
+## What Makes Me Stand Out
+
+✅ **Type-safe by default** — MyPy strict mode, Pydantic validation everywhere  
+✅ **Production-minded** — Security hardening, testing, error handling, observability  
+✅ **Async-first architecture** — Zero blocking operations, scalable by design  
+✅ **AI-integrated** — Built RAG pipelines with real streaming and citations  
+✅ **Well-tested code** — 77% coverage, E2E auth tests, fixture-based unit tests  
 
 ## Let's Connect
 
-I'm always excited to collaborate on innovative projects and exchange ideas about technology. If you'd like to discuss potential collaborations, new opportunities, or simply share insights on software development, feel free to reach out.
+I'm always up for discussing software architecture, AI integration, Python best practices, or exploring new tech.
 
-- **Email:** orsifederico.lavoro@gmail.com  
-- **GitHub:** [@fede080802](https://github.com/fede080802)
+- **Email:** [federico080802@gmail.com](mailto:federico080802@gmail.com)
+- **GitHub:** [@federico-orsi-dev](https://github.com/federico-orsi-dev)
+- **LinkedIn:** [Federico Orsi](https://www.linkedin.com/in/federico-orsi/) (portfolio projects)
 
-Thank you for visiting my profile. Let's build something amazing together!
+---
+
+**Currently building:** Production-grade AI applications. Next: distributed job systems and advanced observability.
+
+**Open to:** Collaborations on Python/AI projects, technical discussions, and opportunities that align with building scalable, well-engineered systems.
+
+Let's build something meaningful together! 🚀
